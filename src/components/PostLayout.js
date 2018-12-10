@@ -17,9 +17,6 @@ export default class PostLayout extends Component {
       <Layout location={location}>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
         <Archive />
-        <div />
-        <p />
-        <span />
       </Layout>
     )
   }
